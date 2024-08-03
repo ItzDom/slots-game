@@ -1,0 +1,36 @@
+.slots{
+    text-align: center;
+    margin-top: 500px; /* space from the top */
+    font-family: Arial, sans-serif;
+    font-size: 100px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 65px; /* Space between the labels */
+    margin-bottom: 20px; /* Space below the labels */
+    margin-left: 105px; /* Space to help center */
+    color: gold; /* flair */
+    text-shadow: black; /* flair */
+}
+
+.button {
+     background-color: #d4af37; /* Gold color */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+    margin-top: 50px;
+}
+
+.body{
+    background-image: url(slots.png); 
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
